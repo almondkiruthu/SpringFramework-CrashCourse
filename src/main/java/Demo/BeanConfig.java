@@ -8,3 +8,4 @@ import org.springframework.stereotype.Component;
 @ComponentScan(basePackages = "Demo")
 public class BeanConfig {
 }
+
