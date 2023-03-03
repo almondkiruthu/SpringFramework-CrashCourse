@@ -7,8 +7,9 @@
 
     <!-- Your bean definitions go here -->
      <bean id="doctor" class="demo.Doctor"></bean>
+     <bean id="nurse" class="demo.Nurse"></bean>
 
-<!--    <import resource="classpath:/spring.xml"/>-->
+<!--<import resource="classpath:/spring.xml"/>-->
 
 
 
