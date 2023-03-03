@@ -10,7 +10,7 @@
        <context:component-scan base-package="Demo"></context:component-scan>
 <!-- Your bean definitions go here -->
        <bean id="doctor" class="Demo.Doctor"></bean>
-<!--     <bean id="nurse" class="Demo.Nurse"></bean>-->
+       <bean id="nurse" class="Demo.Nurse"></bean>
 
 <!--<import resource="classpath:/spring.xml"/>-->
 
