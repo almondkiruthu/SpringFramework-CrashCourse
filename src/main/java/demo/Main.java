@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 
-        Nurse doctor = context.getBean(Nurse.class);
+        Nurse doctor = (Nurse)context.getBean("nurse");
         doctor.assist();
     }
 }
