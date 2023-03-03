@@ -1,4 +1,4 @@
-package demo;
+package Demo;
 
 public class Nurse implements Staff{
     public void assist(){

@@ -1,4 +1,4 @@
-package demo;
+package Demo;
 
 public interface Staff {
     void assist();
