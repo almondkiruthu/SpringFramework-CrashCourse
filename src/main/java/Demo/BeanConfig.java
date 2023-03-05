@@ -7,5 +7,6 @@ import org.springframework.stereotype.Component;
 @Configuration
 @ComponentScan(basePackages = "Demo")
 public class BeanConfig {
+
 }
 

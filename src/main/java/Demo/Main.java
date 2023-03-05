@@ -8,10 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-
-        ApplicationContext context1 = new AnnotationConfigApplicationContext(BeanConfig.class);
-
-        Staff staff = context.getBean(Doctor.class);
+//        ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+        Nurse staff = context.getBean(Nurse.class);
         staff.assist();
     }
 }
