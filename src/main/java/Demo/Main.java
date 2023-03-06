@@ -7,9 +7,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-//        ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
-        Nurse staff = context.getBean(Nurse.class);
+//        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+        Staff staff = context.getBean(Nurse.class);
         staff.assist();
     }
 }
