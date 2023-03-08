@@ -9,14 +9,14 @@ import org.springframework.stereotype.Component;
 @ComponentScan(basePackages = "Demo")
 public class BeanConfig {
 
-    @Bean
-    public Doctor doctor(){
-        return new Doctor();
-    }
-    @Bean
-    public Nurse nurse(){
-        return new Nurse();
-    }
+//    @Bean
+//    public Doctor doctor(){
+//        return new Doctor();
+//    }
+//    @Bean
+//    public Nurse nurse(){
+//        return new Nurse();
+//    }
 
 }
 
